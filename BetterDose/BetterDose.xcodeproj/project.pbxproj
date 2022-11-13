@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9518F79B29211F2500C89ADA /* BetterDoseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F79A29211F2500C89ADA /* BetterDoseApp.swift */; };
+		9518F79D29211F2500C89ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F79C29211F2500C89ADA /* ContentView.swift */; };
+		9518F79F29211F2800C89ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9518F79E29211F2800C89ADA /* Assets.xcassets */; };
+		9518F7A229211F2800C89ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9518F7A129211F2800C89ADA /* Preview Assets.xcassets */; };
+		9518F7AD2921209100C89ADA /* NavigationTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F7AC2921209100C89ADA /* NavigationTabs.swift */; };
+		9518F7B72921320E00C89ADA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F7B62921320E00C89ADA /* CustomTextField.swift */; };
+		955AAA3029213B88005E40D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAA2F29213B88005E40D6 /* LoginView.swift */; };
+		955AAA3229213C31005E40D6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAA3129213C31005E40D6 /* RegisterView.swift */; };
+		955AAA3529213D6B005E40D6 /* CustomCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAA3429213D6B005E40D6 /* CustomCheckBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9518F79729211F2500C89ADA /* BetterDose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterDose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9518F79A29211F2500C89ADA /* BetterDoseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterDoseApp.swift; sourceTree = "<group>"; };
+		9518F79C29211F2500C89ADA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9518F79E29211F2800C89ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9518F7A129211F2800C89ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9518F7AC2921209100C89ADA /* NavigationTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabs.swift; sourceTree = "<group>"; };
+		9518F7B62921320E00C89ADA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		955AAA2F29213B88005E40D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		955AAA3129213C31005E40D6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		955AAA3429213D6B005E40D6 /* CustomCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9518F79429211F2500C89ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9518F78E29211F2500C89ADA = {
+			isa = PBXGroup;
+			children = (
+				9518F79929211F2500C89ADA /* BetterDose */,
+				9518F79829211F2500C89ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9518F79829211F2500C89ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9518F79729211F2500C89ADA /* BetterDose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9518F79929211F2500C89ADA /* BetterDose */ = {
+			isa = PBXGroup;
+			children = (
+				955AAA3329213D58005E40D6 /* components */,
+				9518F7AB2921207C00C89ADA /* enums */,
+				9518F7AA29211FC600C89ADA /* services */,
+				9518F7A929211FBD00C89ADA /* views */,
+				9518F7A829211FB200C89ADA /* models */,
+				9518F79A29211F2500C89ADA /* BetterDoseApp.swift */,
+				9518F79E29211F2800C89ADA /* Assets.xcassets */,
+				9518F7A029211F2800C89ADA /* Preview Content */,
+			);
+			path = BetterDose;
+			sourceTree = "<group>";
+		};
+		9518F7A029211F2800C89ADA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9518F7A129211F2800C89ADA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9518F7A829211FB200C89ADA /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		9518F7A929211FBD00C89ADA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9518F79C29211F2500C89ADA /* ContentView.swift */,
+				955AAA2F29213B88005E40D6 /* LoginView.swift */,
+				955AAA3129213C31005E40D6 /* RegisterView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9518F7AA29211FC600C89ADA /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		9518F7AB2921207C00C89ADA /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				9518F7AC2921209100C89ADA /* NavigationTabs.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		955AAA3329213D58005E40D6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				955AAA3429213D6B005E40D6 /* CustomCheckBox.swift */,
+				9518F7B62921320E00C89ADA /* CustomTextField.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9518F79629211F2500C89ADA /* BetterDose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9518F7A529211F2800C89ADA /* Build configuration list for PBXNativeTarget "BetterDose" */;
+			buildPhases = (
+				9518F79329211F2500C89ADA /* Sources */,
+				9518F79429211F2500C89ADA /* Frameworks */,
+				9518F79529211F2500C89ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterDose;
+			productName = BetterDose;
+			productReference = 9518F79729211F2500C89ADA /* BetterDose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9518F78F29211F2500C89ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9518F79629211F2500C89ADA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 9518F79229211F2500C89ADA /* Build configuration list for PBXProject "BetterDose" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9518F78E29211F2500C89ADA;
+			productRefGroup = 9518F79829211F2500C89ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9518F79629211F2500C89ADA /* BetterDose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9518F79529211F2500C89ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518F7A229211F2800C89ADA /* Preview Assets.xcassets in Resources */,
+				9518F79F29211F2800C89ADA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9518F79329211F2500C89ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518F79D29211F2500C89ADA /* ContentView.swift in Sources */,
+				9518F79B29211F2500C89ADA /* BetterDoseApp.swift in Sources */,
+				9518F7AD2921209100C89ADA /* NavigationTabs.swift in Sources */,
+				955AAA3529213D6B005E40D6 /* CustomCheckBox.swift in Sources */,
+				955AAA3229213C31005E40D6 /* RegisterView.swift in Sources */,
+				955AAA3029213B88005E40D6 /* LoginView.swift in Sources */,
+				9518F7B72921320E00C89ADA /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9518F7A329211F2800C89ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9518F7A429211F2800C89ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9518F7A629211F2800C89ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterDose/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ik3130.BetterDose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9518F7A729211F2800C89ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterDose/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ik3130.BetterDose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9518F79229211F2500C89ADA /* Build configuration list for PBXProject "BetterDose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9518F7A329211F2800C89ADA /* Debug */,
+				9518F7A429211F2800C89ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9518F7A529211F2800C89ADA /* Build configuration list for PBXNativeTarget "BetterDose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9518F7A629211F2800C89ADA /* Debug */,
+				9518F7A729211F2800C89ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9518F78F29211F2500C89ADA /* Project object */;
+}
