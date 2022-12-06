@@ -23,7 +23,6 @@ struct CustomTextField: View {
                     .font(.title2).textInputAutocapitalization(.never)
                     .disableAutocorrection(true)
             }
-            
             Rectangle().frame(height: self.width)
                 .padding(.horizontal, 20).foregroundColor(self.lineColor)
         }

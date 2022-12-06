@@ -7,28 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		950C17C1293F54DE007BA61D /* CustomRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C17C0293F54DE007BA61D /* CustomRating.swift */; };
+		950C17C4293F561B007BA61D /* VerticalLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C17C3293F561B007BA61D /* VerticalLabelStyle.swift */; };
+		950C17C6293F68BD007BA61D /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C17C5293F68BC007BA61D /* Report.swift */; };
+		950C17C8293F6A0B007BA61D /* ReportRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C17C7293F6A0B007BA61D /* ReportRowView.swift */; };
+		950C17CA293FA5C0007BA61D /* EditNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C17C9293FA5C0007BA61D /* EditNameView.swift */; };
+		950C17CC293FAD04007BA61D /* DeleteAccView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C17CB293FAD04007BA61D /* DeleteAccView.swift */; };
+		950C17CE293FC995007BA61D /* FirebaseCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C17CD293FC995007BA61D /* FirebaseCollections.swift */; };
 		9518F79B29211F2500C89ADA /* BetterDoseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F79A29211F2500C89ADA /* BetterDoseApp.swift */; };
 		9518F79D29211F2500C89ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F79C29211F2500C89ADA /* ContentView.swift */; };
 		9518F79F29211F2800C89ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9518F79E29211F2800C89ADA /* Assets.xcassets */; };
 		9518F7A229211F2800C89ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9518F7A129211F2800C89ADA /* Preview Assets.xcassets */; };
-		9518F7AD2921209100C89ADA /* NavigationTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F7AC2921209100C89ADA /* NavigationTabs.swift */; };
+		9518F7AD2921209100C89ADA /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F7AC2921209100C89ADA /* Navigation.swift */; };
 		9518F7B72921320E00C89ADA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518F7B62921320E00C89ADA /* CustomTextField.swift */; };
 		955AAA3029213B88005E40D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAA2F29213B88005E40D6 /* LoginView.swift */; };
 		955AAA3229213C31005E40D6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAA3129213C31005E40D6 /* RegisterView.swift */; };
 		955AAA3529213D6B005E40D6 /* CustomCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAA3429213D6B005E40D6 /* CustomCheckBox.swift */; };
+		955AAA3829214308005E40D6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 955AAA3729214308005E40D6 /* FirebaseAuth */; };
+		955AAA3A29214308005E40D6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 955AAA3929214308005E40D6 /* FirebaseFirestore */; };
+		955AAA3C292143AC005E40D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 955AAA3B292143AB005E40D6 /* GoogleService-Info.plist */; };
+		955AAA3E2922D5A6005E40D6 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAA3D2922D5A6005E40D6 /* DiaryView.swift */; };
+		958A1021293CA1990039456B /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A1020293CA1990039456B /* CustomSearchBar.swift */; };
+		958A1023293CAB7A0039456B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A1022293CAB7A0039456B /* ApiService.swift */; };
+		958A1025293CB0E00039456B /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A1024293CB0E00039456B /* Medication.swift */; };
+		958A1027293CCBD10039456B /* MyResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A1026293CCBD10039456B /* MyResults.swift */; };
+		958A1029293D1C630039456B /* MedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A1028293D1C630039456B /* MedDetailView.swift */; };
+		9592BA98293BD68E005F0579 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9592BA97293BD68D005F0579 /* data.plist */; };
+		9592BAA0293BE015005F0579 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BA9F293BE015005F0579 /* LocationManager.swift */; };
+		9592BAA2293BE03D005F0579 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BAA1293BE03D005F0579 /* MapView.swift */; };
+		9592BAA4293BE08B005F0579 /* MyMapTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BAA3293BE08B005F0579 /* MyMapTab.swift */; };
+		9592BAA6293BF49D005F0579 /* MedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BAA5293BF49D005F0579 /* MedView.swift */; };
+		959C92E42931241B00AB2831 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959C92E32931241B00AB2831 /* CoreLocation.framework */; };
+		959C92E62931242C00AB2831 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959C92E52931242C00AB2831 /* MapKit.framework */; };
+		959C92EC2931259900AB2831 /* Farmacies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C92EB2931259900AB2831 /* Farmacies.swift */; };
+		959C92EE2931265100AB2831 /* Farmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C92ED2931265100AB2831 /* Farmacy.swift */; };
+		95B7819E29254A6100D2F87C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7819D29254A6100D2F87C /* ProfileView.swift */; };
+		95B781A2292677C500D2F87C /* MyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B781A1292677C500D2F87C /* MyUser.swift */; };
+		95B781A429267A5400D2F87C /* FirestoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B781A329267A5400D2F87C /* FirestoreDataManager.swift */; };
+		95B781A72926A2F400D2F87C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 95B781A62926A2F400D2F87C /* FirebaseFirestoreSwift */; };
+		95F2B777293E821A0044A01E /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2B776293E821A0044A01E /* Diary.swift */; };
+		95F2B779293E85ED0044A01E /* DiaryPickDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2B778293E85ED0044A01E /* DiaryPickDateView.swift */; };
+		95F2B77D293E9B2B0044A01E /* DiaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2B77C293E9B2B0044A01E /* DiaryRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		950C17C0293F54DE007BA61D /* CustomRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRating.swift; sourceTree = "<group>"; };
+		950C17C3293F561B007BA61D /* VerticalLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLabelStyle.swift; sourceTree = "<group>"; };
+		950C17C5293F68BC007BA61D /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		950C17C7293F6A0B007BA61D /* ReportRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRowView.swift; sourceTree = "<group>"; };
+		950C17C9293FA5C0007BA61D /* EditNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameView.swift; sourceTree = "<group>"; };
+		950C17CB293FAD04007BA61D /* DeleteAccView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccView.swift; sourceTree = "<group>"; };
+		950C17CD293FC995007BA61D /* FirebaseCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollections.swift; sourceTree = "<group>"; };
 		9518F79729211F2500C89ADA /* BetterDose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterDose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9518F79A29211F2500C89ADA /* BetterDoseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterDoseApp.swift; sourceTree = "<group>"; };
 		9518F79C29211F2500C89ADA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9518F79E29211F2800C89ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9518F7A129211F2800C89ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9518F7AC2921209100C89ADA /* NavigationTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabs.swift; sourceTree = "<group>"; };
+		9518F7AC2921209100C89ADA /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		9518F7B62921320E00C89ADA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		955AAA2F29213B88005E40D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		955AAA3129213C31005E40D6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		955AAA3429213D6B005E40D6 /* CustomCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckBox.swift; sourceTree = "<group>"; };
+		955AAA3B292143AB005E40D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		955AAA3D2922D5A6005E40D6 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		958A1020293CA1990039456B /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		958A1022293CAB7A0039456B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		958A1024293CB0E00039456B /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		958A1026293CCBD10039456B /* MyResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResults.swift; sourceTree = "<group>"; };
+		958A1028293D1C630039456B /* MedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedDetailView.swift; sourceTree = "<group>"; };
+		9592BA97293BD68D005F0579 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		9592BA9F293BE015005F0579 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9592BAA1293BE03D005F0579 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9592BAA3293BE08B005F0579 /* MyMapTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMapTab.swift; sourceTree = "<group>"; };
+		9592BAA5293BF49D005F0579 /* MedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedView.swift; sourceTree = "<group>"; };
+		959C92E32931241B00AB2831 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		959C92E52931242C00AB2831 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		959C92EB2931259900AB2831 /* Farmacies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farmacies.swift; sourceTree = "<group>"; };
+		959C92ED2931265100AB2831 /* Farmacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farmacy.swift; sourceTree = "<group>"; };
+		95B7819D29254A6100D2F87C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		95B781A1292677C500D2F87C /* MyUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUser.swift; sourceTree = "<group>"; };
+		95B781A329267A5400D2F87C /* FirestoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDataManager.swift; sourceTree = "<group>"; };
+		95F2B776293E821A0044A01E /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		95F2B778293E85ED0044A01E /* DiaryPickDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryPickDateView.swift; sourceTree = "<group>"; };
+		95F2B77C293E9B2B0044A01E /* DiaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +97,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959C92E62931242C00AB2831 /* MapKit.framework in Frameworks */,
+				959C92E42931241B00AB2831 /* CoreLocation.framework in Frameworks */,
+				955AAA3829214308005E40D6 /* FirebaseAuth in Frameworks */,
+				955AAA3A29214308005E40D6 /* FirebaseFirestore in Frameworks */,
+				95B781A72926A2F400D2F87C /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		950C17C2293F55FD007BA61D /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				950C17C3293F561B007BA61D /* VerticalLabelStyle.swift */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
 		9518F78E29211F2500C89ADA = {
 			isa = PBXGroup;
 			children = (
 				9518F79929211F2500C89ADA /* BetterDose */,
 				9518F79829211F2500C89ADA /* Products */,
+				95B781A52926A2F400D2F87C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +136,7 @@
 		9518F79929211F2500C89ADA /* BetterDose */ = {
 			isa = PBXGroup;
 			children = (
+				950C17C2293F55FD007BA61D /* styles */,
 				955AAA3329213D58005E40D6 /* components */,
 				9518F7AB2921207C00C89ADA /* enums */,
 				9518F7AA29211FC600C89ADA /* services */,
@@ -68,6 +144,8 @@
 				9518F7A829211FB200C89ADA /* models */,
 				9518F79A29211F2500C89ADA /* BetterDoseApp.swift */,
 				9518F79E29211F2800C89ADA /* Assets.xcassets */,
+				9592BA97293BD68D005F0579 /* data.plist */,
+				955AAA3B292143AB005E40D6 /* GoogleService-Info.plist */,
 				9518F7A029211F2800C89ADA /* Preview Content */,
 			);
 			path = BetterDose;
@@ -84,6 +162,14 @@
 		9518F7A829211FB200C89ADA /* models */ = {
 			isa = PBXGroup;
 			children = (
+				9592BA9F293BE015005F0579 /* LocationManager.swift */,
+				959C92EB2931259900AB2831 /* Farmacies.swift */,
+				959C92ED2931265100AB2831 /* Farmacy.swift */,
+				95B781A1292677C500D2F87C /* MyUser.swift */,
+				958A1024293CB0E00039456B /* Medication.swift */,
+				958A1026293CCBD10039456B /* MyResults.swift */,
+				95F2B776293E821A0044A01E /* Diary.swift */,
+				950C17C5293F68BC007BA61D /* Report.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -92,8 +178,19 @@
 			isa = PBXGroup;
 			children = (
 				9518F79C29211F2500C89ADA /* ContentView.swift */,
+				9592BAA3293BE08B005F0579 /* MyMapTab.swift */,
+				9592BAA1293BE03D005F0579 /* MapView.swift */,
 				955AAA2F29213B88005E40D6 /* LoginView.swift */,
 				955AAA3129213C31005E40D6 /* RegisterView.swift */,
+				955AAA3D2922D5A6005E40D6 /* DiaryView.swift */,
+				95B7819D29254A6100D2F87C /* ProfileView.swift */,
+				9592BAA5293BF49D005F0579 /* MedView.swift */,
+				958A1028293D1C630039456B /* MedDetailView.swift */,
+				95F2B778293E85ED0044A01E /* DiaryPickDateView.swift */,
+				95F2B77C293E9B2B0044A01E /* DiaryRowView.swift */,
+				950C17C7293F6A0B007BA61D /* ReportRowView.swift */,
+				950C17C9293FA5C0007BA61D /* EditNameView.swift */,
+				950C17CB293FAD04007BA61D /* DeleteAccView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -101,6 +198,8 @@
 		9518F7AA29211FC600C89ADA /* services */ = {
 			isa = PBXGroup;
 			children = (
+				95B781A329267A5400D2F87C /* FirestoreDataManager.swift */,
+				958A1022293CAB7A0039456B /* ApiService.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -108,7 +207,8 @@
 		9518F7AB2921207C00C89ADA /* enums */ = {
 			isa = PBXGroup;
 			children = (
-				9518F7AC2921209100C89ADA /* NavigationTabs.swift */,
+				9518F7AC2921209100C89ADA /* Navigation.swift */,
+				950C17CD293FC995007BA61D /* FirebaseCollections.swift */,
 			);
 			path = enums;
 			sourceTree = "<group>";
@@ -118,8 +218,19 @@
 			children = (
 				955AAA3429213D6B005E40D6 /* CustomCheckBox.swift */,
 				9518F7B62921320E00C89ADA /* CustomTextField.swift */,
+				958A1020293CA1990039456B /* CustomSearchBar.swift */,
+				950C17C0293F54DE007BA61D /* CustomRating.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		95B781A52926A2F400D2F87C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				959C92E52931242C00AB2831 /* MapKit.framework */,
+				959C92E32931241B00AB2831 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +249,11 @@
 			dependencies = (
 			);
 			name = BetterDose;
+			packageProductDependencies = (
+				955AAA3729214308005E40D6 /* FirebaseAuth */,
+				955AAA3929214308005E40D6 /* FirebaseFirestore */,
+				95B781A62926A2F400D2F87C /* FirebaseFirestoreSwift */,
+			);
 			productName = BetterDose;
 			productReference = 9518F79729211F2500C89ADA /* BetterDose.app */;
 			productType = "com.apple.product-type.application";
@@ -166,6 +282,9 @@
 				Base,
 			);
 			mainGroup = 9518F78E29211F2500C89ADA;
+			packageReferences = (
+				955AAA3629214308005E40D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9518F79829211F2500C89ADA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -182,6 +301,8 @@
 			files = (
 				9518F7A229211F2800C89ADA /* Preview Assets.xcassets in Resources */,
 				9518F79F29211F2800C89ADA /* Assets.xcassets in Resources */,
+				9592BA98293BD68E005F0579 /* data.plist in Resources */,
+				955AAA3C292143AC005E40D6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +313,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958A1025293CB0E00039456B /* Medication.swift in Sources */,
 				9518F79D29211F2500C89ADA /* ContentView.swift in Sources */,
+				95B7819E29254A6100D2F87C /* ProfileView.swift in Sources */,
+				95F2B779293E85ED0044A01E /* DiaryPickDateView.swift in Sources */,
+				950C17CC293FAD04007BA61D /* DeleteAccView.swift in Sources */,
+				95F2B777293E821A0044A01E /* Diary.swift in Sources */,
+				950C17C1293F54DE007BA61D /* CustomRating.swift in Sources */,
+				959C92EE2931265100AB2831 /* Farmacy.swift in Sources */,
+				950C17C4293F561B007BA61D /* VerticalLabelStyle.swift in Sources */,
+				9592BAA0293BE015005F0579 /* LocationManager.swift in Sources */,
+				950C17C8293F6A0B007BA61D /* ReportRowView.swift in Sources */,
+				9592BAA4293BE08B005F0579 /* MyMapTab.swift in Sources */,
+				9592BAA6293BF49D005F0579 /* MedView.swift in Sources */,
 				9518F79B29211F2500C89ADA /* BetterDoseApp.swift in Sources */,
-				9518F7AD2921209100C89ADA /* NavigationTabs.swift in Sources */,
+				9518F7AD2921209100C89ADA /* Navigation.swift in Sources */,
 				955AAA3529213D6B005E40D6 /* CustomCheckBox.swift in Sources */,
+				950C17CA293FA5C0007BA61D /* EditNameView.swift in Sources */,
+				958A1029293D1C630039456B /* MedDetailView.swift in Sources */,
+				9592BAA2293BE03D005F0579 /* MapView.swift in Sources */,
+				95F2B77D293E9B2B0044A01E /* DiaryRowView.swift in Sources */,
+				950C17CE293FC995007BA61D /* FirebaseCollections.swift in Sources */,
 				955AAA3229213C31005E40D6 /* RegisterView.swift in Sources */,
 				955AAA3029213B88005E40D6 /* LoginView.swift in Sources */,
+				955AAA3E2922D5A6005E40D6 /* DiaryView.swift in Sources */,
+				959C92EC2931259900AB2831 /* Farmacies.swift in Sources */,
+				958A1023293CAB7A0039456B /* ApiService.swift in Sources */,
+				958A1027293CCBD10039456B /* MyResults.swift in Sources */,
+				950C17C6293F68BD007BA61D /* Report.swift in Sources */,
+				95B781A429267A5400D2F87C /* FirestoreDataManager.swift in Sources */,
+				95B781A2292677C500D2F87C /* MyUser.swift in Sources */,
 				9518F7B72921320E00C89ADA /* CustomTextField.swift in Sources */,
+				958A1021293CA1990039456B /* CustomSearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +475,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BetterDose/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need location while the app is being used and in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need location while the app is being used.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,6 +505,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BetterDose/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need location while the app is being used and in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need location while the app is being used.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -397,6 +547,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		955AAA3629214308005E40D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		955AAA3729214308005E40D6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 955AAA3629214308005E40D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		955AAA3929214308005E40D6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 955AAA3629214308005E40D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		95B781A62926A2F400D2F87C /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 955AAA3629214308005E40D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9518F78F29211F2500C89ADA /* Project object */;
 }

@@ -1,18 +1,19 @@
-//
-//  BetterDoseApp.swift
-//  BetterDose
-//
-//  Created by bit4bytes on 13.11.2022..
-//
-
 import SwiftUI
+import Firebase
 
 @main
 struct BetterDoseApp: App {
     
+    @StateObject var farmacies: Farmacies = Farmacies()
+    
+    
+    init(){
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(farmacies)
         }
     }
 }

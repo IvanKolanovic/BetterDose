@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>farmacies</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>City pharmacy Zagreb</string>
+			<key>city</key>
+			<string>Zagreb</string>
+			<key>country</key>
+			<string>Croatia</string>
+			<key>link</key>
+			<string>https://www.gljz.hr/</string>
+			<key>latitude</key>
+			<string>45.813818062880266</string>
+			<key>longitude</key>
+			<string>15.976113739349406</string>
+			<key>address</key>
+			<string>Trg bana Josipa Jelačića 3, 10000, Zagreb</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Farmacia</string>
+			<key>city</key>
+			<string>Zagreb</string>
+			<key>country</key>
+			<string>Croatia</string>
+			<key>link</key>
+			<string>https://farmacia.hr/</string>
+			<key>latitude</key>
+			<string>45.81314698111769</string>
+			<key>longitude</key>
+			<string>15.973439240479665</string>
+			<key>address</key>
+			<string>Ilica 11, 10000, Zagreb</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Prima Pharma</string>
+			<key>city</key>
+			<string>Zagreb</string>
+			<key>country</key>
+			<string>Croatia</string>
+			<key>link</key>
+			<string>https://primapharme.hr/</string>
+			<key>latitude</key>
+			<string>45.820585279528444</string>
+			<key>longitude</key>
+			<string>15.978542257038626</string>
+			<key>address</key>
+			<string>Nova Ves 17, 10000, Zagreb</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ljekarna Pablo</string>
+			<key>city</key>
+			<string>Zagreb</string>
+			<key>country</key>
+			<string>Croatia</string>
+			<key>link</key>
+			<string>https://ljekarna-pablo.hr/</string>
+			<key>latitude</key>
+			<string>45.80048466214037</string>
+			<key>longitude</key>
+			<string>15.961891154124196</string>
+			<key>address</key>
+			<string>Šarengradska ul. 1, 10000, Zagreb</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ljekarna Sabati</string>
+			<key>city</key>
+			<string>Zagreb</string>
+			<key>country</key>
+			<string>Croatia</string>
+			<key>link</key>
+			<string>https://www.mojkvart.hr/Zagreb/Trnje/Ljekarna/ljekarna-sabati-6203</string>
+			<key>latitude</key>
+			<string>45.7965037031686</string>
+			<key>longitude</key>
+			<string>15.971234881384825</string>
+			<key>address</key>
+			<string>Ul. Lavoslava Ružičke 56, 10000, Zagreb</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>City pharmacy Zagreb</string>
+			<key>city</key>
+			<string>Zagreb</string>
+			<key>country</key>
+			<string>Croatia</string>
+			<key>link</key>
+			<string>https://www.gljz.hr/</string>
+			<key>latitude</key>
+			<string>45.804855037819685</string>
+			<key>longitude</key>
+			<string>15.97015675900982</string>
+			<key>address</key>
+			<string>Runjaninova ul. 4, 10000, Zagreb</string>
+		</dict>
+	</array>
+</dict>
+</plist>
